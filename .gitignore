@@ -1,0 +1,42 @@
+# Build output
+build/
+cmake-build-*/
+out/
+*.exe
+!CrushASCII.exe.bak
+
+# Frontend (see web/ for its own .gitignore too)
+web/node_modules/
+web/dist/
+
+# Object / debug files
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+
+# Generated ASCII output (keep the folder, ignore results)
+output/*.txt
+output/*.ans
+output/*.html
+output/*.png
+
+# Uploaded images are local-only (never commit real images)
+images/*.jpg
+images/*.jpeg
+images/*.png
+images/*.bmp
+images/*.gif
+images/*.tga
+images/*.hdr
+!images/.gitkeep

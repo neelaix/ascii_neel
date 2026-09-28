@@ -1,3 +1,5 @@
+# ascii_neel
+
 # CrushASCII
 
 A fast, dependency-light **image → ASCII art** converter for the Windows console, written in clean C++17. Drop in any JPG/PNG/BMP image later and get high-detail terminal portraits.
@@ -191,5 +193,3 @@ CrushASCII.exe --input images\photo.jpg --width 120 --output output\result.txt
 - Floyd–Steinberg dithering option
 - HTML colored export
 - Batch-folder conversion
-#   a s c i i _ n e e l  
- 
