@@ -40,7 +40,7 @@ describe("magic phrase trigger", () => {
         await waitFor(() => expect(revealHappened()).toBe(true));
         expect(
           document.querySelector("figure img").getAttribute("src"),
-        ).toContain("image.jpg");
+        ).toContain("photo.jpg");
         expect(
           screen.getByText(/made with a little code and a lot of love/i),
         ).toBeTruthy();

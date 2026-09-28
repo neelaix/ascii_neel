@@ -160,7 +160,7 @@ export default function RevealAnimation({
           className="relative z-10 max-w-xs text-center text-sm font-light text-zinc-400"
         >
           The surprise isn&apos;t framed yet — place your image at{" "}
-          <code className="text-rose-200">public/image.jpg</code> and
+          <code className="text-rose-200">public/photo.jpg</code> and
           reload. ❤️
         </motion.p>
       )}

@@ -16,7 +16,7 @@ npm install
 npm run dev
 ```
 
-Place your image at `web/public/image.jpg` (any size — a
+Place your image at `web/public/photo.jpg` (any size — a
 CrushASCII color PNG works beautifully) and open the shown URL
 (usually http://localhost:5173/). Typing `i love you` (any case)
 triggers the reveal automatically; a subtle Replay button resets it.

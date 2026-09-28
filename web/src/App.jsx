@@ -6,12 +6,12 @@ import RevealAnimation from "./components/RevealAnimation.jsx";
 
 // ---------------------------------------------------------------------------
 // Single configuration point for the revealed artwork.
-// Place your image at:  web/public/image.jpg  (any browser-supported
+// Place your image at:  web/public/photo.jpg  (any browser-supported
 // format or dimensions — JPG, PNG, or your CrushASCII render; just update
 // the file name below if you rename it).
 // It is requested from the network ONLY after the magic phrase is typed.
 // ---------------------------------------------------------------------------
-const REVEAL_IMAGE = `${import.meta.env.BASE_URL}image.jpg`;
+const REVEAL_IMAGE = `${import.meta.env.BASE_URL}photo.jpg`;
 
 export default function App() {
   const [phase, setPhase] = useState("landing"); // landing | transition | revealed
